@@ -33,6 +33,11 @@ export const buildConfig = (id, location, themeColor = '#blue') => {
       hideWindowTitle: hideWindowTitle,
       sideBarOpenByDefault: sideBarOpenByDefault,
       defaultSideBarPanel: 'canvas',
+      views: [
+        { key: 'single' },
+        { key: 'book' },
+        { key: 'gallery' },
+      ],
     },
     responseHeaders: {
       'Content-Type': 'text/json',
