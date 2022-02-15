@@ -32,7 +32,7 @@ export const buildConfig = (id, location, themeColor = '#blue') => {
       allowMaximize: false,
       hideWindowTitle: hideWindowTitle,
       sideBarOpenByDefault: sideBarOpenByDefault,
-      defaultSideBarPanel: 'canvas',
+      defaultSideBarPanel: 'info',
       views: [
         { key: 'single' },
         { key: 'book' },
